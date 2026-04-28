@@ -2,8 +2,8 @@
 // koneksi.php
 $host = 'localhost';
 $dbname = 'db_blog';
-$username = 'root'; // Sesuaikan dengan username database Anda
-$password = '';     // Sesuaikan dengan password database Anda (biasanya kosong di XAMPP)
+$username = 'root'; 
+$password = '';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
